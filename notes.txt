@@ -1,0 +1,11 @@
+Weather API key: 21acc3d9f78ad2a36de3934b588099c4
+
+git config --global user.name "Abiodun"
+git config --global user.email "abiodunojo453@gmail.com"
+
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/phenomenal-softwares/weather-app.git
+git branch -M main
+git push -u origin main
