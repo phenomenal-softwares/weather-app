@@ -9,3 +9,7 @@ git commit -m "Initial commit"
 git remote add origin https://github.com/phenomenal-softwares/weather-app.git
 git branch -M main
 git push -u origin main
+
+git add .
+git commit -m "Responsive button"
+

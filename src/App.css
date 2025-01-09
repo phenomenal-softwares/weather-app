@@ -16,6 +16,13 @@ body {
   transition: background 0.5s ease-in-out;
 }
 
+.search_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 input[type="text"] {
   padding: 10px;
   font-size: 16px;
@@ -116,7 +123,7 @@ h2 {
 
 /* Add transition for the background change */
 .sunny-bg, .cloudy-bg, .rainy-bg, .snowy-bg, .stormy-bg {
-  animation: background-transition 1s ease-in-out;
+  animation: background-transition 1.5s ease-in-out;
 }
 
 @keyframes background-transition {
@@ -155,6 +162,14 @@ h2 {
 
 /* Styles for Small Screens (Mobile) */
 @media (max-width: 480px) {
+  .search_section {
+    flex-direction: column;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+
   .weather-container {
     padding: 10px;
   }

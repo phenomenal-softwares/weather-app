@@ -11,7 +11,7 @@ const SearchBar = ({ onSearch }) => {
   };
 
   return (
-    <div>
+    <div className="search-section">
       <input
         type="text"
         placeholder="Enter city name"
